@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UEFA</string>
+    <string name="home_title">home</string>
+    <string name="matches_title">Matches</string>
+    <string name="statistics_title">"Statistics "</string>
+    <string name="uefa_champions_league">UEFA CHAMPIONS LEAGUE</string>
+    <string name="welcome">Continue</string>
+    <string name="uefa_description">The UEFA Champions League is an annual club football
+        competition organised by the Union of European Football Associations (UEFA)
+    </string>
+    <string name="log_in">log in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seasons">Seasons</string>
+</resources>

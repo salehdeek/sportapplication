@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:orientation="vertical">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/black"
+              android:textSize="20dp"
+              android:background="@color/white"
+              android:layout_margin="15dp"
+              android:fontFamily="sans-serif"
+              android:textFontWeight="@integer/material_motion_duration_long_2"
+              android:text="@string/uefa_description"/>
+    <ImageView android:layout_width="379dp"
+               android:layout_margin="10dp"
+               android:layout_gravity="center"
+               android:layout_height="212dp"
+               android:src="@drawable/home_uefa"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:id="@+id/login_btn"
+            android:text="account"
+
+            android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="edu.birzeit.sport">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/cristiano"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/cristiano"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Sport_application">
+        <activity android:name=".login.createAccount.CreateAccount">
+        </activity>
+        <activity android:name=".craeteAccount.createAccount">
+        </activity>
+        <activity android:name=".login.createAccount.createAccount">
+        </activity>
+        <activity android:name=".playersPages.Liva">
+        </activity>
+        <activity android:name=".playersPages.Benzima">
+        </activity>
+        <activity android:name=".playersPages.Messi">
+        </activity>
+        <activity android:name=".playersPages.Cristiano">
+        </activity>
+        <activity android:name=".createAccount.CreateAccountActivity">
+        </activity>
+        <activity android:name=".login.LoginActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard">
+            <intent-filter>
+                <action android:name="edu.birzeit.sport.Dashboard"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
